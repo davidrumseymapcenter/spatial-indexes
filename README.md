@@ -7,7 +7,7 @@ This is a working repository for creating and storing geojson spatial index file
 ![Screenshot 2024-03-26 at 2 54 23 PM](https://github.com/davidrumseymapcenter/spatial-indexes/assets/14874423/4bc5f96f-bb35-4a0e-b462-c47768162579)
 3. Assign the Issue to yourself
 ![Screenshot 2024-03-26 at 2 55 26 PM](https://github.com/davidrumseymapcenter/spatial-indexes/assets/14874423/8773faa2-f0aa-4356-89c2-5ea801c5cd00)
-4. Find the images of the atlas index in the [Google Drive](#)
+4. Change the status of the project to "in progress"
 5. Open [geojson.io](https://geojson.io) in a new browser window
 6. Using the images, create a geojson file.
   - click on the little star-like icon on the page to create a new atlas plate feature. Each atlas plate will be it's own feature in the geojson file.
