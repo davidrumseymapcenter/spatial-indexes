@@ -70,10 +70,10 @@ def snap_polygons_with_clustering(gdf, tolerance=SNAP_TOLERANCE):
     return gdf
 
 # Load the GeoJSON file
-gdf = gpd.read_file("sanborn_sanFrancisco_vol10_1940.geojson")
+gdf = gpd.read_file("input_file_name_here.geojson")
 
 # Snap polygon vertices with clustering
 snapped_gdf = snap_polygons_with_clustering(gdf)
 
 # Save to a new GeoJSON file
-snapped_gdf.to_file("snapped_output2.geojson", driver="GeoJSON")
+snapped_gdf.to_file("output_file_name_here.geojson", driver="GeoJSON")
