@@ -36,4 +36,4 @@ This is a working repository for creating and storing geojson spatial index file
 [^1]:If you haven't already, you may want to install the VS Code python extension. Upon opening the script for the first time, a popup may appear asking if you would like to install the extension. Alternatively, you can install it from the Extensions Sidebar Tab (Shift+Command+X). This is not required to run the script.
 [^2]:If you get "command not found" errors using the `python` and `pip` commands, try using `python3` and `pip3` instead. This will depend on your operating system, python installation version, etc. More info can be found [here](https://www.reddit.com/r/learnpython/comments/mf7t0n/why_python3_in_command_prompt_vs_python/).
 [^3]:This script requires four total packages to run properly: geopandas, shapely, numpy, and scipy. You won't need to individually install shapely and numpy as they are dependencies of geopandas and are included in your geopandas installation.
-[^4]:~~Note about setting equivalent python versions in VS Code~~
+<!-- [^4]:Note about setting equivalent python versions in VS Code -->
