@@ -1,4 +1,4 @@
-# Spatial Indexes for Sanborn Atlases
+# Spatial Indexes for Insurance Atlases
 This is a working repository for creating and storing geojson spatial index files. 
 
 # How To
