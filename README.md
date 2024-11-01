@@ -22,10 +22,10 @@ This is a working repository for creating and storing geojson spatial index file
 1. If you have not done so already, you will need to install python and Visual Studio Code. You can download the python installer from [this page](https://www.python.org/downloads/) and the Visual Studio Code installer from [this page](https://code.visualstudio.com/Download).
 2. Crete a new folder on your computer named _spatial-index-alignment_.
 3. Download _alignment-script.py_ and move it to your new folder.
-4. Open your _spatial-index-alignment_ folder in Visual Studio Code[^1].
+4. Open your _spatial-index-alignment_ folder in Visual Studio Code.[^1]
 5. Open the Terminal below the script (View > Terminal) and set up a virtual environment:[^2]\
 `python -m venv .index-alignment-venv`
-7. Open a **new** Terminal with (Terminal > New Terminal) `pip install` to install each of the following packages:[^3]
+7. Open a **new** Terminal (Terminal > New Terminal) and use `pip install` to install each of the following\ packages:[^3]
   - `pip install geopandas`
   - `pip install scipy`
 9. Download the spatial index .geojson file you want to align and move it to your _spatial-index-alignment_ folder.
