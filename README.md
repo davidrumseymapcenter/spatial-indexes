@@ -22,6 +22,7 @@ This is a working repository for creating and storing geojson spatial index file
 1. Drag and drop the completed geojson file into [geojson.io](https://geojson.io).
 2. For each outlined polygon, check that there is a corresponding vertex point relative to those of the bordering polygons. Below is an example: the orange polygon is missing a vertex at the point where it meets with the two bordering blue polygons.
 <img width="424" alt="Screenshot 2024-11-07 at 9 28 43 AM" src="https://github.com/user-attachments/assets/55257055-2921-446c-b52e-4c130be27206">
+
 3. For each of these missing verticies, use the edit tool to add a new vertex. Click the edit tool, click on the polygon you'd like to edit, click the small orange dot at the midpoint of the polygon's edge, and then drag it to align with the bordering polygons' verticies.
 4. When you are finished prepping the geojson file, save it following the convention `prepped_[atlas]_[city]_vol[volume number]_[year of the atlas].geojson`
 5. Upload the file to the spatial-indexes repository.
