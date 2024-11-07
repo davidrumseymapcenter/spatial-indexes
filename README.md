@@ -18,7 +18,17 @@ This is a working repository for creating and storing geojson spatial index file
 8. If the atlas needs to be continued at a later time, you can copy/paste the geojson text into geojson.io and continue working.
 9. Once finished, upload the final geojson.io file and close the Issue.
 
-# Aligning Index Points
+# Prepping geojson files for Alignment (Work in Progress)
+1. Drag and drop the completed geojson file into [geojson.io](https://geojson.io).
+2. For each outlined polygon, check that there is a corresponding vertex point relative to those of the bordering polygons. Below is an example: the orange polygon is missing a vertex at the point where it meets with the two bordering blue polygons.
+
+3. For each of these missing verticies, use the edit tool to add a new vertex. Click the edit tool, click on the polygon you'd like to edit, click the small orange dot at the midpoint of the polygon's edge, and then drag it to align with the bordering polygons' verticies.
+4. When you are finished prepping the geojson file, save it following the convention `prepped_[atlas]_[city]_vol[volume number]_[year of the atlas].geojson`
+5. Upload the file to the spatial-indexes repository.
+
+
+
+# Aligning Index Points (Work in Progress)
 1. If you have not done so already, you will need to install python and Visual Studio Code. You can download the python installer from [this page](https://www.python.org/downloads/) and the Visual Studio Code installer from [this page](https://code.visualstudio.com/Download).
 2. Crete a new folder on your computer named _spatial-index-alignment_.
 3. Download _alignment-script.py_ and move it to your new folder.
